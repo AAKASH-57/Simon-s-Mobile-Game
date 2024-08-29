@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(4, 22, 53);
+}
+#label1{
+
+    color: rgb(235, 235, 53);
+    font-family: "Matemasie", sans-serif;
+    font-weight: bold;
+    font-size: 5rem;
+    font-style: normal;
+    text-shadow: -2px 4px 10px white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+
+
+}
+
+#label2, #label3{
+    display: block;
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-size: 100px;
+    font-variation-settings:
+      "MORF" 15,
+      "SHLN" 50;
+    margin-top: 40px;
+
+}
+  
+.press1{
+    display: block;
+    text-align: center;
+    padding-bottom: 40px ;
+}
+
+.btndiv{    
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+.btn{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    border: 15px solid black;
+    border-radius: 30px;
+    box-shadow: -2px -2px 5px white;
+}
+#red{
+    background-color: rgb(255, 0, 0);
+}
+#blue{
+    background-color: rgb(0, 0, 255);
+}
+#green{
+    background-color: rgb(13, 173, 13);
+}
+#yellow{
+    background-color: rgb(255, 255, 0);
+}
+.redlight{
+    background-color: white;
+}
+#start, #info{
+    margin: auto;
+    margin-bottom: 30px;
+    height: 50px;
+    width: 100px;
+    border: 10px solid greenyellow;
+    border-radius: 30px;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#info, #start{
+    display: block;
+}
+/* .startbtn{
+    display: flex;
+    justify-content: center;
+} */
+#footer1{
+    height:24vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: white;
+}
+
+#infoMatter{
+    background-color: white;
+    height: 300px;
+    width:  300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+#x{
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    margin-left: 230px;
+}
+/* 🕹️😁
+hey my name is  Aakash Vintipalli*/
